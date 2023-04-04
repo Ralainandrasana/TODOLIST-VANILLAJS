@@ -1,0 +1,57 @@
+:root{
+    --color1:;
+    --color2:;
+}
+ .ENTREE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .SORTI{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+ }
+ .wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .check{
+   width: 15px;
+   height: 15px;
+   border: solid 1px black;
+   border-radius: 50%;
+   padding: 3px;
+ }
+ ul,li{
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+ li{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: solid 1px black;
+   margin: 5px 0px 5px 0px;
+   padding: 5px 0 5px 0;
+ }
+ li p{
+   margin-left: 5px;
+ }
+ li .check{
+   margin-right: 5px;
+ }
+.container{
+   //background-color: blue;
+}
+.ENTREE .input input{
+   min-width: 500px;
+}
+.checked{
+  text-decoration: line-through;
+  transition: 1s;
+  transform: scale(0);
+}
